@@ -14,6 +14,9 @@
 		BD445B822A8BD04A0080944F /* TravelBuddyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD445B812A8BD04A0080944F /* TravelBuddyAppTests.swift */; };
 		BD445B8C2A8BD04A0080944F /* TravelBuddyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD445B8B2A8BD04A0080944F /* TravelBuddyAppUITests.swift */; };
 		BD445B8E2A8BD04A0080944F /* TravelBuddyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD445B8D2A8BD04A0080944F /* TravelBuddyAppUITestsLaunchTests.swift */; };
+		BD7AD8B42A8BD49D0091E676 /* MyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7AD8B32A8BD49D0091E676 /* MyMap.swift */; };
+		BD99A7012A8C028B00B31ADC /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD99A7002A8C028B00B31ADC /* PinView.swift */; };
+		BDBD61322A8D188B000257B9 /* GeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD61312A8D188B000257B9 /* GeneralInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		BD445B872A8BD04A0080944F /* TravelBuddyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelBuddyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD445B8B2A8BD04A0080944F /* TravelBuddyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelBuddyAppUITests.swift; sourceTree = "<group>"; };
 		BD445B8D2A8BD04A0080944F /* TravelBuddyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelBuddyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD7AD8B32A8BD49D0091E676 /* MyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMap.swift; sourceTree = "<group>"; };
+		BD99A7002A8C028B00B31ADC /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
+		BDBD61312A8D188B000257B9 /* GeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				BD445B702A8BD0490080944F /* TravelBuddyAppApp.swift */,
 				BD445B722A8BD0490080944F /* ContentView.swift */,
+				BD7AD8B32A8BD49D0091E676 /* MyMap.swift */,
+				BDBD61312A8D188B000257B9 /* GeneralInfo.swift */,
+				BD99A7002A8C028B00B31ADC /* PinView.swift */,
 				BD445B742A8BD0490080944F /* Assets.xcassets */,
 				BD445B762A8BD0490080944F /* Preview Content */,
 			);
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD445B732A8BD0490080944F /* ContentView.swift in Sources */,
+				BDBD61322A8D188B000257B9 /* GeneralInfo.swift in Sources */,
 				BD445B712A8BD0490080944F /* TravelBuddyAppApp.swift in Sources */,
+				BD99A7012A8C028B00B31ADC /* PinView.swift in Sources */,
+				BD7AD8B42A8BD49D0091E676 /* MyMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
