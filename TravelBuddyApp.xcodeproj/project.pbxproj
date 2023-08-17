@@ -14,6 +14,11 @@
 		BD445B822A8BD04A0080944F /* TravelBuddyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD445B812A8BD04A0080944F /* TravelBuddyAppTests.swift */; };
 		BD445B8C2A8BD04A0080944F /* TravelBuddyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD445B8B2A8BD04A0080944F /* TravelBuddyAppUITests.swift */; };
 		BD445B8E2A8BD04A0080944F /* TravelBuddyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD445B8D2A8BD04A0080944F /* TravelBuddyAppUITestsLaunchTests.swift */; };
+		BD531E7C2A8E76A200ABE7EE /* hamburger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531E7B2A8E76A200ABE7EE /* hamburger.swift */; };
+		BD531E7E2A8E77E800ABE7EE /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531E7D2A8E77E800ABE7EE /* MenuView.swift */; };
+		BD531E802A8E792700ABE7EE /* HamburgerMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531E7F2A8E792700ABE7EE /* HamburgerMenuApp.swift */; };
+		BD531E822A8E7A1500ABE7EE /* MyNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531E812A8E7A1500ABE7EE /* MyNotes.swift */; };
+		BD531E842A8E8D6D00ABE7EE /* MyReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531E832A8E8D6D00ABE7EE /* MyReviews.swift */; };
 		BD7AD8B42A8BD49D0091E676 /* MyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7AD8B32A8BD49D0091E676 /* MyMap.swift */; };
 		BD99A7012A8C028B00B31ADC /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD99A7002A8C028B00B31ADC /* PinView.swift */; };
 		BDBD61322A8D188B000257B9 /* GeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD61312A8D188B000257B9 /* GeneralInfo.swift */; };
@@ -47,6 +52,11 @@
 		BD445B872A8BD04A0080944F /* TravelBuddyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelBuddyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD445B8B2A8BD04A0080944F /* TravelBuddyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelBuddyAppUITests.swift; sourceTree = "<group>"; };
 		BD445B8D2A8BD04A0080944F /* TravelBuddyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelBuddyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD531E7B2A8E76A200ABE7EE /* hamburger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hamburger.swift; sourceTree = "<group>"; };
+		BD531E7D2A8E77E800ABE7EE /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		BD531E7F2A8E792700ABE7EE /* HamburgerMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerMenuApp.swift; sourceTree = "<group>"; };
+		BD531E812A8E7A1500ABE7EE /* MyNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotes.swift; sourceTree = "<group>"; };
+		BD531E832A8E8D6D00ABE7EE /* MyReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviews.swift; sourceTree = "<group>"; };
 		BD7AD8B32A8BD49D0091E676 /* MyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMap.swift; sourceTree = "<group>"; };
 		BD99A7002A8C028B00B31ADC /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 		BDBD61312A8D188B000257B9 /* GeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfo.swift; sourceTree = "<group>"; };
@@ -80,6 +90,7 @@
 		BD445B642A8BD0490080944F = {
 			isa = PBXGroup;
 			children = (
+				BD531E7D2A8E77E800ABE7EE /* MenuView.swift */,
 				BD445B6F2A8BD0490080944F /* TravelBuddyApp */,
 				BD445B802A8BD04A0080944F /* TravelBuddyAppTests */,
 				BD445B8A2A8BD04A0080944F /* TravelBuddyAppUITests */,
@@ -103,8 +114,12 @@
 				BD445B702A8BD0490080944F /* TravelBuddyAppApp.swift */,
 				BD445B722A8BD0490080944F /* ContentView.swift */,
 				BD7AD8B32A8BD49D0091E676 /* MyMap.swift */,
+				BD531E812A8E7A1500ABE7EE /* MyNotes.swift */,
 				BDBD61312A8D188B000257B9 /* GeneralInfo.swift */,
 				BD99A7002A8C028B00B31ADC /* PinView.swift */,
+				BD531E7B2A8E76A200ABE7EE /* hamburger.swift */,
+				BD531E832A8E8D6D00ABE7EE /* MyReviews.swift */,
+				BD531E7F2A8E792700ABE7EE /* HamburgerMenuApp.swift */,
 				BD445B742A8BD0490080944F /* Assets.xcassets */,
 				BD445B762A8BD0490080944F /* Preview Content */,
 			);
@@ -266,11 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD531E7E2A8E77E800ABE7EE /* MenuView.swift in Sources */,
 				BD445B732A8BD0490080944F /* ContentView.swift in Sources */,
 				BDBD61322A8D188B000257B9 /* GeneralInfo.swift in Sources */,
 				BD445B712A8BD0490080944F /* TravelBuddyAppApp.swift in Sources */,
+				BD531E802A8E792700ABE7EE /* HamburgerMenuApp.swift in Sources */,
+				BD531E7C2A8E76A200ABE7EE /* hamburger.swift in Sources */,
 				BD99A7012A8C028B00B31ADC /* PinView.swift in Sources */,
 				BD7AD8B42A8BD49D0091E676 /* MyMap.swift in Sources */,
+				BD531E822A8E7A1500ABE7EE /* MyNotes.swift in Sources */,
+				BD531E842A8E8D6D00ABE7EE /* MyReviews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

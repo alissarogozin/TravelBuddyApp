@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var username = ""
+    @State private var password = ""
+    
     var body: some View {
         NavigationStack{
             ZStack{
@@ -22,9 +26,9 @@ struct ContentView: View {
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 100.0, height: 100.0)
-                    TextField("Username", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                    TextField("Username", text: $username)
                         .font(.title)
-                    TextField("Password", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                    TextField("Password", text: $password)
                         .font(.title)
                     Spacer()
                         .frame(height: 15.0)
