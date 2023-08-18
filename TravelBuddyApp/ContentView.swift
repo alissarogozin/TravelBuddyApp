@@ -19,7 +19,7 @@ struct ContentView: View {
                     .cornerRadius(35)
                 VStack {
                     Text("Welcome to TravelBuddy!")
-                        .font(.largeTitle)
+                        .font(Font.custom("JosefinSans-Light", size: 50))
                     Spacer()
                         .frame(height: 30.0)
                     Image("profilePic")
@@ -27,25 +27,29 @@ struct ContentView: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 100.0, height: 100.0)
                     TextField("Username", text: $username)
-                        .font(.title)
+                        .font(Font.custom("JosefinSans-Light", size: 30))
+                        .border(/*@START_MENU_TOKEN@*/Color("darkgreen")/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
                     TextField("Password", text: $password)
-                        .font(.title)
+                        .font(Font.custom("JosefinSans-Light", size: 30))
+                        .border(/*@START_MENU_TOKEN@*/Color("darkgreen")/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
+            
                     Spacer()
                         .frame(height: 15.0)
                     NavigationLink(destination: MyMap()) {
                         Text("Log In")
-                            .font(.title)
+                            .font(Font.custom("JosefinSans-Light", size: 30))
                     }
-                    Spacer()
-                        .frame(height: 15.0)
+                    .padding()
+//                    Spacer()
+//                        .frame(height: 60.0)
                     Image("logo")
                         .resizable(resizingMode: .stretch)
                         .aspectRatio(contentMode: .fit)
                     VStack{
                         Text("Travel Smarter.")
-                            .font(.title2)
+                            .font(Font.custom("JosefinSans-Light", size: 30))
                         Text("Not Harder.")
-                            .font(.title2)
+                            .font(Font.custom("JosefinSans-Light", size: 30))
                     }
                 }
                 .padding()

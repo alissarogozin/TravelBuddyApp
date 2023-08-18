@@ -10,6 +10,7 @@ import SwiftUI
 struct MyNotes: View {
     
     @State var choiceMade = "Options"
+    @State private var notes = ""
     
     var body: some View {
 
@@ -18,7 +19,10 @@ struct MyNotes: View {
                     .cornerRadius(35)
             
             VStack{
-                Text("My Notes 📝").font(.largeTitle).fontWeight(.heavy)//.padding(.vertical, 300.0)
+                Text("My Notes 📝")
+                    .font(Font.custom("JosefinSans-Light", size: 50))
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)//.padding(.vertical, 300.0)
                                 
                 Menu{
                     Button(action: {
@@ -62,6 +66,17 @@ struct MyNotes: View {
   
                     )
                 }
+                
+                
+                TextField("Type notes here", text: $notes, axis: .vertical)
+                    .padding()
+                    .frame(width: 300.0, height: 350.0)
+                    .overlay(RoundedRectangle(cornerRadius: 10.0).strokeBorder(Color.black, style: StrokeStyle(lineWidth: 1.0)))
+                    .padding()
+                
+                Image("logo")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
             }
         }
         .padding(.horizontal)

@@ -15,15 +15,17 @@ struct MyReviews: View {
             
             VStack {
                 Text("My Reviews")
-                    .font(.largeTitle)
+                    .font(Font.custom("JosefinSans-Light", size: 35))
                     .fontWeight(.heavy)
                     .padding()
+                Spacer()
+                    .frame(height: 30.0)
                 HStack {
                     Image(systemName: "person")
                         .foregroundColor(.black)
                         .imageScale(.large)
                     Text("Anonymous1")
-                        .font(.title3)
+                        .font(Font.custom("JosefinSans-Light", size: 30))
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.leading)
                     Spacer()
@@ -31,22 +33,24 @@ struct MyReviews: View {
                 .padding(.leading)
                 HStack {
                     Text("Nandos ⭐️⭐️⭐️⭐️")
-                        .font(.title3)
+                        .font(Font.custom("JosefinSans-Light", size: 30))
                         .fontWeight(.medium)
                         .multilineTextAlignment(.leading)
                     Spacer()
                 }
                 .padding(.leading)
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+                    .font(Font.custom("JosefinSans-Light", size: 20))
                 
                     .padding()
-                
+                Spacer()
+                    .frame(height: 40.0)
                 HStack {
                     Image(systemName: "person")
                         .foregroundColor(.black)
                         .imageScale(.large)
                     Text("Anonymous2")
-                        .font(.title3)
+                        .font(Font.custom("JosefinSans-Light", size: 30))
                         .fontWeight(.semibold)
                         .multilineTextAlignment(.center)
                     Spacer()
@@ -54,14 +58,19 @@ struct MyReviews: View {
                 .padding(.leading)
                 HStack {
                     Text("Hotel Astoria ⭐️⭐️")
-                        .font(.title3)
+                        .font(Font.custom("JosefinSans-Light", size: 30))
                         .fontWeight(.medium)
                         .multilineTextAlignment(.leading)
                     Spacer()
                 }
                 .padding(.leading)
                 Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
-                
+                    .font(Font.custom("JosefinSans-Light", size: 20))
+                Image("logo")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                    .padding()
+                    .frame(width: 280.0, height: 180.0)
                     .padding()
             }
             

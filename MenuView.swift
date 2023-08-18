@@ -13,13 +13,15 @@ struct MenuView: View {
         NavigationStack{
             VStack(alignment: .leading) {
                 HStack {
-                    NavigationLink(destination: ContentView()) {
+                    NavigationLink(destination: MyProfile()) {
                         Image(systemName: "person")
                             .foregroundColor(.gray)
                             .imageScale(.large)
+                            .padding(.top, 30)
                         Text("Profile")
                             .foregroundColor(.gray)
                             .font(.headline)
+                            .padding(.top, 30)
                     }
                 }
                 .padding(.top, 100)
@@ -36,7 +38,7 @@ struct MenuView: View {
                 }
                 .padding(.top, 30)
                 HStack {
-                    NavigationLink(destination: ContentView()) {
+                    NavigationLink(destination: MyReviews()) {
                         Image(systemName: "star")
                             .foregroundColor(.gray)
                             .imageScale(.large)
@@ -46,7 +48,7 @@ struct MenuView: View {
                     }
                 }
                 .padding(.top, 30)
-                NavigationLink(destination: ContentView()) {
+                NavigationLink(destination: MySaved()) {
                     HStack {
                         Image(systemName: "bookmark")
                             .foregroundColor(.gray)

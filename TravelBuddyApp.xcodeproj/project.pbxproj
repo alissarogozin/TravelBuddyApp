@@ -19,9 +19,12 @@
 		BD531E802A8E792700ABE7EE /* HamburgerMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531E7F2A8E792700ABE7EE /* HamburgerMenuApp.swift */; };
 		BD531E822A8E7A1500ABE7EE /* MyNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531E812A8E7A1500ABE7EE /* MyNotes.swift */; };
 		BD531E842A8E8D6D00ABE7EE /* MyReviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD531E832A8E8D6D00ABE7EE /* MyReviews.swift */; };
+		BD67B2AE2A8FAEFA0023D492 /* MySaved.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD67B2AD2A8FAEFA0023D492 /* MySaved.swift */; };
 		BD7AD8B42A8BD49D0091E676 /* MyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7AD8B32A8BD49D0091E676 /* MyMap.swift */; };
 		BD99A7012A8C028B00B31ADC /* PinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD99A7002A8C028B00B31ADC /* PinView.swift */; };
 		BDBD61322A8D188B000257B9 /* GeneralInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD61312A8D188B000257B9 /* GeneralInfo.swift */; };
+		BDFC98162A8EA47B0082F191 /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFC98152A8EA47B0082F191 /* MyProfile.swift */; };
+		BDFC98182A8EA4E40082F191 /* Josefin_Sans in Resources */ = {isa = PBXBuildFile; fileRef = BDFC98172A8EA4E40082F191 /* Josefin_Sans */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +60,13 @@
 		BD531E7F2A8E792700ABE7EE /* HamburgerMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamburgerMenuApp.swift; sourceTree = "<group>"; };
 		BD531E812A8E7A1500ABE7EE /* MyNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNotes.swift; sourceTree = "<group>"; };
 		BD531E832A8E8D6D00ABE7EE /* MyReviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyReviews.swift; sourceTree = "<group>"; };
+		BD67B2AD2A8FAEFA0023D492 /* MySaved.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySaved.swift; sourceTree = "<group>"; };
 		BD7AD8B32A8BD49D0091E676 /* MyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMap.swift; sourceTree = "<group>"; };
 		BD99A7002A8C028B00B31ADC /* PinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinView.swift; sourceTree = "<group>"; };
 		BDBD61312A8D188B000257B9 /* GeneralInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfo.swift; sourceTree = "<group>"; };
+		BDFC98152A8EA47B0082F191 /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		BDFC98172A8EA4E40082F191 /* Josefin_Sans */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Josefin_Sans; sourceTree = "<group>"; };
+		BDFC98192A8EA5340082F191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +118,15 @@
 		BD445B6F2A8BD0490080944F /* TravelBuddyApp */ = {
 			isa = PBXGroup;
 			children = (
+				BDFC98192A8EA5340082F191 /* Info.plist */,
 				BD445B702A8BD0490080944F /* TravelBuddyAppApp.swift */,
 				BD445B722A8BD0490080944F /* ContentView.swift */,
+				BDFC98172A8EA4E40082F191 /* Josefin_Sans */,
 				BD7AD8B32A8BD49D0091E676 /* MyMap.swift */,
+				BD67B2AD2A8FAEFA0023D492 /* MySaved.swift */,
 				BD531E812A8E7A1500ABE7EE /* MyNotes.swift */,
 				BDBD61312A8D188B000257B9 /* GeneralInfo.swift */,
+				BDFC98152A8EA47B0082F191 /* MyProfile.swift */,
 				BD99A7002A8C028B00B31ADC /* PinView.swift */,
 				BD531E7B2A8E76A200ABE7EE /* hamburger.swift */,
 				BD531E832A8E8D6D00ABE7EE /* MyReviews.swift */,
@@ -255,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDFC98182A8EA4E40082F191 /* Josefin_Sans in Resources */,
 				BD445B782A8BD0490080944F /* Preview Assets.xcassets in Resources */,
 				BD445B752A8BD0490080944F /* Assets.xcassets in Resources */,
 			);
@@ -282,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD531E7E2A8E77E800ABE7EE /* MenuView.swift in Sources */,
+				BDFC98162A8EA47B0082F191 /* MyProfile.swift in Sources */,
 				BD445B732A8BD0490080944F /* ContentView.swift in Sources */,
 				BDBD61322A8D188B000257B9 /* GeneralInfo.swift in Sources */,
 				BD445B712A8BD0490080944F /* TravelBuddyAppApp.swift in Sources */,
@@ -289,6 +302,7 @@
 				BD531E7C2A8E76A200ABE7EE /* hamburger.swift in Sources */,
 				BD99A7012A8C028B00B31ADC /* PinView.swift in Sources */,
 				BD7AD8B42A8BD49D0091E676 /* MyMap.swift in Sources */,
+				BD67B2AE2A8FAEFA0023D492 /* MySaved.swift in Sources */,
 				BD531E822A8E7A1500ABE7EE /* MyNotes.swift in Sources */,
 				BD531E842A8E8D6D00ABE7EE /* MyReviews.swift in Sources */,
 			);
@@ -451,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TravelBuddyApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelBuddyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -479,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TravelBuddyApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TravelBuddyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
